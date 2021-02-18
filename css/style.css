@@ -17,15 +17,20 @@ header{position:fixed; height: 100% ; right:0; top: 0px; z-index:100;}
 
 #cont1 .cont1_txt2{position: absolute; top:1150px; right:750px; font-family: nexon_regular;}
 
-#cont2{position: relative; width:100%; height: 2800px;}
+#cont2{position: relative; width:100%; height: 2600px;}
 #cont2 h1{font-size: 70px; padding-top: 200px; padding-left: 90px;
            font-family: nexon_bold; color: #2E2E2E;}
 #cont2 .cont2_box1{width:842px; height:842px; background-color:#F7DE61;
                    box-sizing: border-box;
                    position: absolute; top: 550px; left: 0px;}
-#cont2 .cont2_box1_logo1{padding-top: 110px; text-align: center;}
-#cont2 .cont2_box1_logo1 img {width:40%}
-#cont2 .cont2_box1_txt {text-align: center; color: #2A2A2A; padding-top: 83px;}
+/*#cont2 .cont2_box1_logo1{padding-top: 110px; text-align: center;}
+#cont2 .cont2_box1_logo1 img {width:40%}*/
+#cont2 .cont2_box1_logo1 {background: url("../images/sec1_logo1.png") no-repeat;
+                          background-size: 30%;
+                          background-position: center; width:100%; height: 200px;
+                          margin-top:130px;}
+
+#cont2 .cont2_box1_txt {text-align: center; color: #2A2A2A; padding-top: 50px; }
 #cont2 .cont2_box1_txt .txt1 {font-size: 40px;padding-bottom: 27px; 
                               font-family: nexon_regular; font-weight: bolder;}
 #cont2 .cont2_box1_txt .txt2 {font-size: 25px;padding-bottom: 15px; font-family: nexon_regular;}
@@ -43,9 +48,12 @@ header{position:fixed; height: 100% ; right:0; top: 0px; z-index:100;}
 #cont2 .cont2_box2{width:842px; height:842px; background-color:#F7DE61;
                     box-sizing: border-box;
                     position: absolute; top: 550px; right: 160px;}
-#cont2 .cont2_box2_logo2 {padding-top: 110px; text-align: center;}
-#cont2 .cont2_box2_logo2 img {width:40%}
-#cont2 .cont2_box2_txt {text-align: center; color: #2A2A2A; padding-top: 83px;}
+#cont2 .cont2_box2_logo2 {background: url("../images/sec1_logo2.png") no-repeat;
+                          background-size: 30%;
+                          background-position: center; width:100%; height: 200px;
+                          margin-top:130px;}
+
+#cont2 .cont2_box2_txt {text-align: center; color: #2A2A2A; padding-top: 50px;}
 #cont2 .cont2_box2_txt .txt1 {font-size: 40px;padding-bottom: 27px;
                               font-family: nexon_regular; font-weight: bolder;}
 #cont2 .cont2_box2_txt .txt2 {font-size: 25px;padding-bottom: 15px; font-family: nexon_regular;}
@@ -68,8 +76,31 @@ header{position:fixed; height: 100% ; right:0; top: 0px; z-index:100;}
 #cont2 .cont2_box4_txt {text-align: center; color: #2A2A2A; padding-top: 400px;}
 #cont2 .cont2_box4_txt .txt1 {font-size: 40px; font-family: nexon_bold;}
 
+#cont2 > div:hover .cont2_box1_black .black1 {background: #fff;transition-duration:0.8s;}
+#cont2 > div:hover .cont2_box1_black .black1_txt{color:#2A2A2A; font-size: 20px;  }
+#cont2 > div:hover .cont2_box1_black .black2 {background: #fff;transition-duration:0.8s;}
+#cont2 > div:hover .cont2_box1_black .black2_txt{color:#2A2A2A; font-size: 20px;  }
+
+#cont2 > div:hover .cont2_box2_black .black1 {background: #fff;transition-duration:0.8s;}
+#cont2 > div:hover .cont2_box2_black .black1_txt{color:#2A2A2A; font-size: 20px;  }
+
+#cont2 > div:hover{background: #404040; transition-duration:0.8s; }
+#cont2 > div:hover .cont2_box1_txt{color:#fff;}
+#cont2 > div:hover .cont2_box2_txt{color:#fff;}
+#cont2 > div:hover .cont2_box3_txt{color:#fff;}
+#cont2 > div:hover .cont2_box4_txt{color:#fff;}
+#cont2 > div:hover .cont2_box1_logo1{background: url("../images/sec1_logo1_wt.png") no-repeat;
+                                     background-size: 30%;
+                                     background-position: center; width:100%; height: 200px;
+                                     margin-top:130px;}
+#cont2 > div:hover .cont2_box2_logo2{background: url("../images/sec1_logo2_wt.png") no-repeat;
+                                     background-size: 30%;
+                                     background-position: center; width:100%; height: 200px;
+                                     margin-top:130px;}
+
+
 #cont3 .cont3_mainb{background: url("../images/sec3_background.png") no-repeat;
-                    background-size: 100%; position: relative; padding-bottom: 100px;}
+                    background-size: 100%; position: relative; padding-bottom: 100px; }
 #cont3 h2 {transform: translateY(-35px); padding-left: 90px;
            font-family: nexon_bold; color: #2E2E2E;
            font-size: 70px;}
@@ -85,7 +116,7 @@ header{position:fixed; height: 100% ; right:0; top: 0px; z-index:100;}
 #cont3 .cont3_mainb .inner > div:nth-child(3n){margin-right: 0;}
 #cont3 .cont3_mainb .inner {padding-top: 100px; }
 /*cont3 박스 패턴 시작*/
-#cont3 .cont3_mainbox1 {}
+/*#cont3 .cont3_mainbox1 {}
 #cont3 .cont3_img1 img {width:100%}
 #cont3 .cont3_subbox1 {
                        background-color: #fff;
@@ -201,11 +232,12 @@ header{position:fixed; height: 100% ; right:0; top: 0px; z-index:100;}
 .cont3_subbox9 .subbox9_txt2{text-align: left;
                         font-size: 15px; font-family: nexon_regular;
                         color: #2A2A2A; padding-top: 10px; padding-left: 20px;
-                        opacity: 50%;}     
+                        opacity: 50%;}     */
 /*cont3 박스 패턴 종료*/
 #cont3 .cont3_plus  {position:absolute;
-                    width:100%; bottom:60px; left:0; text-align: center;}
+                    width:100%; bottom:60px; left:0; bottom:40px; text-align: center;}
 #cont3 .cont3_plus img{width: 50px;}
+
 
 /*cont3 완전종료*/
 
@@ -227,9 +259,38 @@ header{position:fixed; height: 100% ; right:0; top: 0px; z-index:100;}
                            padding-bottom: 30px;}
 #cont4 .cont4_seconds2_ul > li{padding-bottom: 25px ; font-size: 16px; 
                       font-family: nexon_regular; color: #2A2A2A;}
-#cont4 .cont4_seconds2_ul > li > span {width: 270px; height:10px;
-                              border: solid 1px #F69;}
-
+/*스테이터스 바 제작 시작*/
+#cont4 .cont4_ul_bar{border: solid 1px #FFD2C5; background: #fff; width:150%; 
+                     height:5px; position: relative; padding-left: 50px;
+                     bottom: 12px; left: 150px;}
+#cont4 .cont4_ul_bar::before{content: ''; display: block; width:80%; height: 5px; 
+                             background: #FFD2C5; position: absolute; left:0; top:0;}
+#cont4 .cont4_ul_bar2{border: solid 1px #FFD2C5; background: #fff; width:150%; 
+                    height:5px; position: relative; padding-left: 50px;
+                    bottom: 12px; left: 150px;}
+#cont4 .cont4_ul_bar2::before{content: ''; display: block; width:80%; height: 5px; 
+                            background: #FFD2C5; position: absolute; left:0; top:0;}
+#cont4 .cont4_ul_bar3{border: solid 1px #FFD2C5; background: #fff; width:150%; 
+                     height:5px; position: relative; padding-left: 50px;
+                     bottom: 12px; left: 150px;}
+#cont4 .cont4_ul_bar3::before{content: ''; display: block; width:80%; height: 5px; 
+                             background: #FFD2C5; position: absolute; left:0; top:0;}
+#cont4 .cont4_ul_bar4{border: solid 1px #FFD2C5; background: #fff; width:150%; 
+                     height:5px; position: relative; padding-left: 50px;
+                      bottom: 12px; left: 150px;}
+#cont4 .cont4_ul_bar4::before{content: ''; display: block; width:60%; height: 5px; 
+                             background: #FFD2C5; position: absolute; left:0; top:0;}
+#cont4 .cont4_ul_bar5{border: solid 1px #FFD2C5; background: #fff; width:150%; 
+                    height:5px; position: relative; padding-left: 50px;
+                      bottom: 12px; left: 150px;}
+#cont4 .cont4_ul_bar5::before{content: ''; display: block; width:60%; height: 5px; 
+                             background: #FFD2C5; position: absolute; left:0; top:0;}
+#cont4 .cont4_ul_bar6{border: solid 1px #FFD2C5; background: #fff; width:150%; 
+                      height:5px; position: relative; padding-left: 50px;
+                      bottom: 12px; left: 150px;}
+#cont4 .cont4_ul_bar6::before{content: ''; display: block; width:50%; height: 5px; 
+                            background: #FFD2C5; position: absolute; left:0; top:0;}
+/*스테이터스 바 제작 종료*/
 #cont4 .cont4_third {padding-top: 450px; width:1000px; position: relative;}
 #cont4 .cont4_thirds1{float: left;}
 #cont4 .cont4_thirds1_txt {font-family: nexon_regular; color: #2A2A2A;
@@ -248,6 +309,8 @@ header{position:fixed; height: 100% ; right:0; top: 0px; z-index:100;}
 #cont4 .cont4_thirds2_img2{position: absolute; bottom:110px; right:-470px;}
 #cont4 .cont4_thirds2_img2 img {width:20%;}
 
+#cont4 .cont4_arrow {position: absolute; bottom:-400px; left: 600px;}
+#cont4 .cont4_arrow img {width: 40%;}
 @media all and (max-width:1280px) {
 
 }

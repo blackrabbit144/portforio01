@@ -9,16 +9,30 @@
 <link href="css/common.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/magnific-popup.css"><!-- 팝업화면 스타일 바꿀거면 지우고 화면에 뜨는 클래명으로 직접 스타일 넣으면 됨-->
+<link rel="stylesheet" href="css/style_pop.css">
 
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/main.js"></script>
+
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+  <!-- 시간차로 올라옴 -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main_pop.js"></script>
 </head>
 
 <body>
 <div id="wrap">
 	<header>
       <ul class="gnb">
-      	<li class="active"><a href="#cont2">WEB</a></li>
+		<li class="active"><a href="#cont1">HOME</a></li>
+      	<li><a href="#cont2">WEB</a></li>
         <li><a href="#cont3">DESIGN</a></li>
         <li><a href="#cont4">INTRODUCE</a></li>
       </ul>
@@ -46,11 +60,11 @@
     <div id="cont2">
 		<h1>WEB</h1>
 		<div class="cont2_box1">
-			<div class="cont2_box1_logo1"><img src="images/sec1_logo1.png" alt="logo1"></div>
+			<div class="cont2_box1_logo1"></div>
 			<div class="cont2_box1_txt">
 				<p class="txt1">모닝투어</p>
 				<p class="txt2">여행사 프로젝트</p>
-				<p class="txt3">BX / WEB Design</p>
+				<p class="txt3">WEB / BX Design</p>
 			</div>
 			<div class="cont2_box1_black">
 				<div class="black1"><a href="https://blackrabbit144.github.io/proj2/">
@@ -63,7 +77,7 @@
 		</div>
 
 		<div class="cont2_box2">
-			<div class="cont2_box2_logo2"><img src="images/sec1_logo2.png" alt="logo2"></div>
+			<div class="cont2_box2_logo2"></div>
 			<div class="cont2_box2_txt">
 				<p class="txt1">애니멀레스큐 </p>
 				<p class="txt2">유기동물 복지 프로젝트 </p>
@@ -95,7 +109,7 @@
 		<div class="cont3_mainb">
 			<h2>ART WORK</h2>
 			<div class="inner">
-		
+<!--
 			<div class="cont3_mainbox1"><a href="#">
 				<p class="cont3_img1"><img src="images/sec3_first.jpg" alt="sec3_first"></p>
 				<div class="cont3_subbox1">
@@ -160,6 +174,102 @@
 				</div></a>
 			</div>
 			<p class="cont3_plus"><a href="#"><img src="images/sec3_plus.png"></a></p>
+		-->
+
+		<section id="fh5co-work" data-section="portfolio">
+			<div class="container">
+	
+				<div class="row row-bottom-padded-sm">
+					<div class="col-md-4 col-sm-6 col-xxs-12">
+						<a href="images/sec3_first.jpg" class="fh5co-project-item image-popup to-animate">
+							<img src="images/sec3_first.jpg" alt="Image" class="img-responsive">
+							<div class="fh5co-text">
+							<h2>안녕하세요</h2>
+							<span>potoshop / POSTER</span>
+							</div>
+						</a>
+						
+					</div>
+					<div class="col-md-4 col-sm-6 col-xxs-12">
+						<a href="project/work/omae_hyang/omae_hyang_detail_fix.jpg" class="fh5co-project-item image-popup to-animate">
+							<img src="images/sec3_first.jpg" alt="Image" class="img-responsive">
+							<div class="fh5co-text">
+							<h2>ì˜¤ë©”í–¥</h2>
+							<span>Illustrater / LOGO</span>
+							</div>
+						</a>
+					</div>
+	
+					<div class="col-md-4 col-sm-6 col-xxs-12">
+						<a href="project/work/cardnews/cardnews_detail.jpg" class="fh5co-project-item image-popup to-animate">
+							<img src="images/sec3_first.jpg" alt="Image" class="img-responsive">
+							<div class="fh5co-text">
+							<h2>ì¹´ë“œë‰´ìŠ¤</h2>
+							<span>potoshop&amp;Illustrater / CARDNEWS</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xxs-12">
+						<a href="project/work/ediya/ediya_detail_fix.jpg" class="fh5co-project-item image-popup to-animate">
+							<img src="images/sec3_first.jpg" alt="Image" class="img-responsive">
+							<div class="fh5co-text">
+							<h2>ì´ë””ì•¼</h2>
+							<span>Illustrater / BANNER</span>
+							</div>
+						</a>
+					</div>
+	
+	
+					<div class="col-md-4 col-sm-6 col-xxs-12">
+						<a href="project/work/baskinrobbins/baskinrobbins_detail_fix.jpg" class="fh5co-project-item image-popup to-animate">
+							<img src="images/sec3_first.jpg" alt="Image" class="img-responsive">
+							<div class="fh5co-text">
+							<h2>ë² ìŠ¤í‚¨ë¼ë¹ˆìŠ¤</h2>
+							<span>Illustrater / BANNER</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xxs-12">
+						<a href="project/work/newyear/newyear_detail_fix.jpg" class="fh5co-project-item image-popup to-animate">
+							<img src="images/sec3_first.jpg" alt="Image" class="img-responsive">
+							<div class="fh5co-text">
+							<h2>ì„¤ë‚ </h2>
+							<span>Illustrater / BANNER</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xxs-12">
+						<a href="project/work/peripera/peripera_detail_fix.jpg" class="fh5co-project-item image-popup to-animate">	
+							<img src="images/sec3_first.jpg" alt="Image" class="img-responsive">
+							<div class="fh5co-text">
+							<h2>íŽ˜ë¦¬íŽ˜ë¼</h2>
+							<span>potoshop / PRODUCT DETAIL PAGE</span>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xxs-12">
+						<a href="project/work/peripera/tit_move_img.gif" class="fh5co-project-item image-popup to-animate">	
+							<img src="images/sec3_first.jpg" alt="Image" class="img-responsive">
+							<div class="fh5co-text">
+							<h2>íŽ˜ë¦¬íŽ˜ë¼</h2>
+							<span>potoshop / GIF IMAGE</span>
+							</div>
+						</a>
+					</div>				
+					<div class="col-md-4 col-sm-6 col-xxs-12">
+						<a href="project/work/busanfolk/busanfolk_detail.jpg" class="fh5co-project-item image-popup to-animate">	
+							<img src="images/sec3_first.jpg" alt="Image" class="img-responsive">
+							<div class="fh5co-text">
+							<h2>ë¶€ì‚°í¬ë¯¼ì†ë°•ë¬¼ê´€</h2>
+							<span>potoshop&amp;Illustrater / POSTER</span>
+							</div>
+						</a>
+					</div>	
+					
+				</div>
+			</div>
+		</section>
+		<p class="cont3_plus"><a href="#"><img src="images/sec3_plus.png"></a></p>
 		</div>
 		</div>
 
@@ -182,12 +292,12 @@
 				<div class="cont4_seconds2">
 					<h4>SKILLS</h4>
                 <ul class="cont4_seconds2_ul">
-					<li>Photoshop<span></span></li>
-					<li>illustrator</li>
-					<li>ADOBE XD</li>
-					<li>html / Css</li>
-					<li>jQuery</li>
-					<li>Cafe24</li>
+					<li>Photoshop<p class="cont4_ul_bar"></p></li>
+					<li>illustrator<p class="cont4_ul_bar2"></p></li>
+					<li>ADOBE XD<p class="cont4_ul_bar3"></p></li>
+					<li>html / Css<p class="cont4_ul_bar4"></p></li>
+					<li>jQuery<p class="cont4_ul_bar5"></p></li>
+					<li>Cafe24<p class="cont4_ul_bar6"></p></li>
 				</ul>
 			    </div>
 			</div>
@@ -211,6 +321,7 @@
 					<div class="cont4_thirds2_img1"><img src="images/qrcode.jpg" alt="qr"></div>
 					<div class="cont4_thirds2_img2"><img src="images/kakaotalk_logo.png" alt="kakao"></div>
 				</div>
+				<p class="cont4_arrow"><a href="#"><img src="images/sec4_arrow.png" alt="backtothehome"></a></p>
 			</div>
 		</div><!--inner-->
 
